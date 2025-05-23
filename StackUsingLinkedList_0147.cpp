@@ -39,7 +39,12 @@ public:
         if (isEmpty())
         {
             cout << "Stack is empty." << endl
-           return;
+            return;
         }
+
+        Node *temp = top; // create temporary pointer
+        top = top->next;  // update the top pointer to the next node
+        cout << "Popped Value: " << temp->data << endl;
+        delete temp;
     }
-};
+}
