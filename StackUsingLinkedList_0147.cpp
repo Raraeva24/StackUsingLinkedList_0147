@@ -47,4 +47,9 @@ public:
         cout << "Popped Value: " << temp->data << endl;
         delete temp;
     }
-}
+    // peek Top operation: retrive the value of the topmost element without remove
+    void peek()
+    {
+        
+    }
+};
