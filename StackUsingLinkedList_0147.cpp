@@ -16,5 +16,11 @@ public:
 // stack class
 class stack
 {
-    
+    Node *top; // pointer to the top node od the stack
+public:
+    stack()
+    {
+        top = NULL; // initialize the stack with a null top pointer
+    }
+
 };
