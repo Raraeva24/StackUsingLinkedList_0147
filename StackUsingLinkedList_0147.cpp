@@ -70,3 +70,20 @@ public:
         return top == NULL; // return the if too pointer us null. indicate an empty stack
     }
 };
+
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
+
+    while (choice != 4)
+    {
+       
+        switch (choice)
+        {
+        
+    }
+    return 0;
+};
