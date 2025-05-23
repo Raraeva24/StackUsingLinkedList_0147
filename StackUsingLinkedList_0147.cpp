@@ -38,8 +38,7 @@ public:
     {
         if (isEmpty())
         {
-            cout << "Stack is empty." << endl
-            return;
+            cout << "Stack is empty." << endl return;
         }
 
         Node *temp = top; // create temporary pointer
