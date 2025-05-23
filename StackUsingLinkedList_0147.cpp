@@ -80,10 +80,10 @@ int main()
 
     while (choice != 4)
     {
-       
-        switch (choice)
-        {
-        
-    }
-    return 0;
+        cout << "1. Push\n";
+        cout << "2. Pop\n";
+        cout << "3. Peek\n";
+        cout << "4. Exit\n";
+        cout << "Enter your choice: ";
+        cin >> choice;        
 };
